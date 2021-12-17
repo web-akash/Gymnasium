@@ -1,4 +1,4 @@
-@media (min-width:320px) and (max-width:565px){
+@media (min-width:320px) and (max-width:575px){
     section.company .next {
         right: 0px;
     }
@@ -30,14 +30,13 @@
    nav ul li:hover{
 	background-color: transparent;
 }
-section.about-part .left {
-	position: relative;
-	position: absolute;
-	bottom: -315px;
+section.about-part .row {
+	flex-direction: column-reverse;
 }
+
+
 section.about-part {
-	margin-top: 25px;
-	padding-bottom: 135px;
+	padding-bottom: 0px;
 }
     section.banner-part .banner .overlay h3:after {
       display: none;
@@ -156,6 +155,397 @@ section.about-part {
     }
     section.footer .two h3 {
         margin: 5px 0px;
+    }
+    
+    ol, ul {
+        padding-left: 0px;
+    }
+    .colorful-tab-menu-item a {
+        padding: 10px 0;
+    }
+    section.tab {
+	margin-top: 25px;
+    }
+  
+    /* ============================================= */
+}
+
+
+@media (min-width:576px) and (max-width:767px){
+    section.company .next {
+        right: 0px;
+    }
+    nav{
+        top: 0;
+    }
+    nav button i {
+        padding: 20px 0px;
+    }
+    nav .logo .brand {
+        top: -32px;
+        padding: 10px 0px;
+    }
+    
+    .navbar-nav {
+        margin-top: -8px;
+    }
+    nav ul li {
+        padding: 0px 20px;
+        margin: 0 auto;
+    }
+    nav  ul li:hover a{
+        color: #f1f1f1 ;
+   }
+   nav  ul li a{
+       color: #f1f1f1 !important;
+   }
+
+   nav ul li:hover{
+	background-color: transparent;
+}
+section.about-part .row {
+	flex-direction: column-reverse;
+}
+section.about-part {
+	padding-bottom: 0px; 
+}
+
+
+    section.banner-part .banner .overlay h3:after {
+      display: none;
+    }
+    section.banner-part .banner .overlay h3:before {
+      display: none;
+    }
+    section.banner-part .banner .overlay h1:after {
+        display: none;
+    }
+    section.banner-part .banner .overlay h1:before {
+        display: none;
+    }
+    section.banner-part .banner .overlay p:after {
+        display: none;
+    }
+    section.banner-part .banner .overlay p::before {
+       display: none;
+    }
+    section.banner-part .banner_one {
+        height: 350px;
+    }
+    section.banner-part .banner_two {
+        height: 350px;
+    }
+    section.banner-part .banner_three {
+        height: 350px;
+    }
+    section.banner-part .banner .overlay {
+         padding-top: 90px; 
+        padding-bottom: 0px;
+    }
+    section.banner-part .banner .overlay h3 {
+        font-size: 20px;
+    }
+    section.banner-part .banner .overlay h1 {
+        font-size: 30px;
+    }
+    section.banner-part .banner .overlay p {
+        font-size: 14px;
+         width: auto;
+         padding: 0px 10px; 
+         margin: 5px 0px;
+    }
+    section.banner-part .banner .overlay a {
+        
+        padding: 2px 5px;
+      
+    }
+    section.about-part {
+        margin-top: 25px;
+    }
+    section.about-part .right p {
+        font-size: 14px;
+    }
+    .title h3 {
+        margin-top: 10px;
+    }
+    section.gallery-part {
+        margin-top: 25px;
+    }
+    .title {
+        margin-bottom: 27px;
+    }
+    section.team-part {
+        margin-top: 25px;
+    }
+    section.team-part .title{
+        margin-bottom: 70px;
+    }
+    section.member-part {
+        margin-top: 25px;
+    }
+    section.testimonial {
+         margin-bottom: 100px;
+    }
+    section.counter_up .item {
+        border: 1px solid #f1f1f1;
+        margin: 5px;
+    }
+    section.counter_up .item h4 {
+        font-size: 25px;
+    }
+    section.counter_up .item p {
+        font-size: 14px;
+    }
+    section.counter_up {
+     
+        margin-top: 25px;
+    }
+    section.company {
+        margin-top: 25px;
+    }
+    section.company .next {
+        display: none !important;
+    }
+    section.company .item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    section.footer {
+        margin-top: 25px;
+    }
+    section.footer .two .a, section.footer .two .b, section.footer .two .c, section.footer .two .d {
+        flex-basis: 92%;
+        flex-direction: row;
+    }
+    section.footer .two .d .social_icon i {
+        
+        margin: 14px 9px;
+    }
+    section.footer .three p {
+        padding: 5px 0px;
+        font-size: 13px;
+    }
+    section.footer .two h3 {
+        margin: 5px 0px;
+    }
+    ol, ul {
+        padding-left: 0px;
+    }
+    .colorful-tab-menu-item a {
+        padding: 10px 0;
+    }
+  
+    section.member-part .item {
+        margin: 0px auto;
+    }
+    section.member-part .item2 {
+        box-shadow: 5px 0px 8px 0px rgba(0, 0, 0, 0),-5px 0px 8px 0px rgba(0, 0, 0, 0);
+    }
+    section.footer .two .c .gallery_one {
+        margin: 10px auto;
+    }
+    section.footer .two .c .gallery_two {
+        margin: 10px auto;
+    }
+    section.footer .two .c .gallery_three {
+        margin: 10px auto;
+    }
+    section.tab {
+        margin-top: 25px;
+    }
+    /* ============================================= */
+}
+
+
+
+
+
+@media (min-width:768px) and (max-width:991px){
+    section.company .next {
+        right: 0px;
+    }
+    nav{
+        top: 0;
+    }
+    nav button i {
+        padding: 20px 0px;
+    }
+    nav .logo .brand {
+        top: -32px;
+        padding: 10px 0px;
+    }
+    
+    .navbar-nav {
+        margin-top: -8px;
+    }
+    nav ul li {
+        padding: 0px 20px;
+        margin: 0 auto;
+    }
+    nav  ul li:hover a{
+        color: #f1f1f1 ;
+   }
+   nav  ul li a{
+       color: #f1f1f1 !important;
+   }
+
+   nav ul li:hover{
+	background-color: transparent;
+}
+section.about-part .row {
+	flex-direction: column-reverse;
+}
+section.about-part {
+	padding-bottom: 0px; 
+}
+
+
+    section.banner-part .banner .overlay h3:after {
+      display: none;
+    }
+    section.banner-part .banner .overlay h3:before {
+      display: none;
+    }
+    section.banner-part .banner .overlay h1:after {
+        display: none;
+    }
+    section.banner-part .banner .overlay h1:before {
+        display: none;
+    }
+    section.banner-part .banner .overlay p:after {
+        display: none;
+    }
+    section.banner-part .banner .overlay p::before {
+       display: none;
+    }
+    section.banner-part .banner_one {
+        height: 350px;
+    }
+    section.banner-part .banner_two {
+        height: 350px;
+    }
+    section.banner-part .banner_three {
+        height: 350px;
+    }
+    section.banner-part .banner .overlay {
+         padding-top: 90px; 
+        padding-bottom: 0px;
+    }
+    section.banner-part .banner .overlay h3 {
+        font-size: 20px;
+    }
+    section.banner-part .banner .overlay h1 {
+        font-size: 30px;
+    }
+    section.banner-part .banner .overlay p {
+        font-size: 14px;
+         width: auto;
+         padding: 0px 10px; 
+         margin: 5px 0px;
+    }
+    section.banner-part .banner .overlay a {
+        
+        padding: 2px 5px;
+      
+    }
+    section.about-part {
+        margin-top: 25px;
+    }
+    section.about-part .right p {
+        font-size: 14px;
+    }
+    .title h3 {
+        margin-top: 10px;
+    }
+    section.gallery-part {
+        margin-top: 25px;
+    }
+    .title {
+        margin-bottom: 27px;
+    }
+    section.team-part {
+        margin-top: 25px;
+    }
+    section.team-part .title{
+        margin-bottom: 70px;
+    }
+    section.member-part {
+        margin-top: 25px;
+    }
+    section.testimonial {
+         margin-bottom: 100px;
+    }
+    section.counter_up .item {
+        border: 1px solid #f1f1f1;
+        margin: 5px;
+    }
+    section.counter_up .item h4 {
+        font-size: 25px;
+    }
+    section.counter_up .item p {
+        font-size: 14px;
+    }
+    section.counter_up {
+     
+        margin-top: 25px;
+    }
+    section.company {
+        margin-top: 25px;
+    }
+    section.company .next {
+        display: none !important;
+    }
+    section.company .item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    section.footer {
+        margin-top: 25px;
+    }
+    section.footer .two .a, section.footer .two .b, section.footer .two .c, section.footer .two .d {
+        flex-basis: 92%;
+        flex-direction: row;
+    }
+    section.footer .two .d .social_icon i {
+        
+        margin: 14px 9px;
+    }
+    section.footer .three p {
+        padding: 5px 0px;
+        font-size: 13px;
+    }
+    section.footer .two h3 {
+        margin: 5px 0px;
+    }
+    ol, ul {
+        padding-left: 0px;
+    }
+    .colorful-tab-menu-item a {
+        padding: 10px 0;
+    }
+    section.about-part .left {
+        bottom: -14px;
+        left: 0;
+    }
+    section.member-part .item {
+        margin: 0px auto;
+    }
+    section.member-part .item2 {
+        box-shadow: 5px 0px 8px 0px rgba(0, 0, 0, 0),-5px 0px 8px 0px rgba(0, 0, 0, 0);
+    }
+    section.footer .two .c .gallery_one {
+        margin: 10px auto;
+    }
+    section.footer .two .c .gallery_two {
+        margin: 10px auto;
+    }
+    section.footer .two .c .gallery_three {
+        margin: 10px auto;
+    }
+    section.tab {
+        margin-top: 25px;
     }
     /* ============================================= */
 }

@@ -314,6 +314,7 @@ section.about-part .main{
 	display: flex;
 	justify-content: space-between;
 }
+
 section.about-part .left{
 	position: relative;
 }
@@ -346,6 +347,12 @@ section.about-part .left .overlay i:hover{
 }
 section.about-part .left img{
 	width: 100%;
+}
+section.about-part .left img {
+	width: 100%;
+	display: block;
+	display: inline-block;
+	height: 100%;
 }
 section.about-part .left .overlay .fa-play:before {
     margin-left: 4px;
@@ -390,6 +397,14 @@ section.gallery-part .gallery_item .img{
 	position: relative;
 }
 section.gallery-part .gallery_item{
+	display: flex;
+	flex-direction: column-reverse;
+
+}
+section.gallery-part .gallery_item:nth-child(odde){
+	display: flex;
+	flex-direction: column-reverse;
+
 }
 section.gallery-part .gallery_item .img img{
 	width: 100%;
@@ -827,14 +842,14 @@ section.tab .colorful-tab-menu .active{
 	background-color: crimson;
 	transition: 0.6s;
  
-
 }
 section.tab .colorful-tab-menu .active a{
 	color: #fff;
 	
 }
-
-
+.colorful-tab-content.active {
+	overflow: hidden;
+}
 
 
 /*=============== Footer ================*/
@@ -845,6 +860,7 @@ section.footer{
 	background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(../images/fotter-bg.png);
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-position: center;
 }
  
 
